@@ -13,7 +13,7 @@ def callback(msg):
             if value < 0.5:
                 print('Obstacle is detected')
     else:
-        print('Invalid indices for the specified range.')
+        print('Invalid indices for the specified range. fine')
 
 def main():
     rclpy.init()
